@@ -71,14 +71,24 @@ Users should be aware of the tool's limitations and potential risks. It's recomm
 
 To begin using the Resume Information Extractor, follow these steps:
 
-1. Install the required packages:
+1. Clone this repository:
+
+   ```bash
+   git clone https://huggingface.co/nehulagrawal/resume-extractor
+
+2. Install the required packages:
    ```bash
    pip install langchain_community pdfminer.six ollama
 
+   or
 
-2. Ensure you have Ollama set up and running with the "llama3" model.
+   ```bash
+   pip install -r requirements.txt
 
-3. Use the tool in your Python script:
+
+3. Ensure you have Ollama set up and running with the "llama3" model.
+
+4. Use the tool in your Python script:
 
 ```python
 from pdfminer.high_level import extract_text

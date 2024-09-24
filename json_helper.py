@@ -17,16 +17,16 @@ json_content = """{{
     "education": [
         {{
             "institute_name": "",
-            "year_of_passsing": "",
+            "year_of_passing": "",
             "score": ""
         }},
         {{
             "institute_name": "",
-            "year_of_passsing": "",
+            "year_of_passing": "",
             "score": ""
         }}
     ],
-    "professional_experiene": [
+    "professional_experience": [
         {{
             "organisation_name": "",
             "duration": "",

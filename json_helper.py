@@ -53,7 +53,7 @@ class InputData:
         {json_content}
 
         Instructions:
-        1. Carefully analyze the resume text.
+        1. Carefully analyse the resume text.
         2. Extract relevant information for each field in the JSON template.
         3. If a piece of information is not explicitly stated, make a reasonable inference based on the context.
         4. Ensure all keys from the template are present in the output JSON.

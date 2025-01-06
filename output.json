@@ -1,0 +1,39 @@
+{
+    "name": "AADIL MOHAMMED",
+    "email": "aadil@mycareermail.com",
+    "phone_1": "(816) 768-2421",
+    "phone_2": "",
+    "address": "",
+    "city": "Kansas City",
+    "linkedin": "",
+    "professional_experience_in_years": 4,
+    "highest_education": "Master of Science, University of Missouri - Kansas City, Computer Science",
+    "is_fresher": "no",
+    "is_student": "no",
+    "skills": ["Python", "SQL", "NoSQL", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "HTML", "CSS"],
+    "applied_for_profile": "",
+    "education": [
+        {
+            "institute_name": "University of Missouri - Kansas City",
+            "year_of_passing": "Aug 2021 – Dec 2022",
+            "score": ""
+        },
+        {
+            "institute_name": "Jyothi Institute of Engineering and Technology",
+            "year_of_passing": "Aug 2014 – May 2018",
+            "score": ""
+        }
+    ],
+    "professional_experience": [
+        {
+            "organisation_name": "Intelliswift Software Inc",
+            "duration": "Jan 2023 – present",
+            "profile": "Data Engineer"
+        },
+        {
+            "organisation_name": "Genpact Solutions",
+            "duration": "Jun 2018 – Jul 2021",
+            "profile": "Data Engineer"
+        }
+    ]
+}

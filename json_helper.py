@@ -3,48 +3,18 @@ from langchain_community.llms import Ollama
 json_content = """{{
     "name": "",
     "email" : "",
-    "phone_1": "",
-    "phone_2": "",
+    "phone": "",
     "address": "",
-    "city": "",
     "linkedin": "",
     "professional_experience_in_years": "",
-    "highest_education": "",
-    "is_fresher": "yes/no",
-    "is_student": "yes/no",
     "skills": ["",""],
-    "applied_for_profile": "",
-    "education": [
-        {{
-            "institute_name": "",
-            "year_of_passing": "",
-            "score": ""
-        }},
-        {{
-            "institute_name": "",
-            "year_of_passing": "",
-            "score": ""
-        }}
-    ],
-    "professional_experience": [
-        {{
-            "organisation_name": "",
-            "duration": "",
-            "profile": ""
-        }},
-        {{
-            "organisation_name": "",
-            "duration": "",
-            "profile": ""
-        }}
-    ]
 }}"""
 
 
 class InputData:
     def input_data(text):
 
-        input = f"""Extract relevant information from the following resume text and fill the provided JSON template. Ensure all keys in the template are present in the output, even if the value is empty or unknown. If a specific piece of information is not found in the text, use 'Not provided' as the value.
+        input = f"""Extract relevant information from the following resume text and fill the provided JSON template. Ensure all keys in the template are present in the output, even if the value is empty or unknown. If a specific piece of information is not found in the text, then calculate it from all job experience for years of experience for experience.
 
         Resume text:
         {text}
